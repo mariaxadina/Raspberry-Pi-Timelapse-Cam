@@ -1,7 +1,15 @@
 # Raspberry Pi Timelapse Cam
-
+## Table of Contents
+1. [Introduction](#introduction)
+2. [General Description](#General-Description)
+3. [Hardware Design](#Hardware-Design)
+4. [Results](#Results)
+5. [Bibliography/Resources](#Bibliography/Resources)
+   
 ## Introduction
 This project is a Timelapse Camera system built with a Raspberry Pi, designed to automatically capture images at user-defined intervals and organize them into date-based folders. The system features a user-friendly interface through an I2C LCD display and three physical buttons for navigation and selection.
+
+## General Description
 
 ### Detailed Description of Hardware Functionality
 **1. Microcomputer Raspberry Pi 4B**: It runs the Python scripts, handles GPIO input from buttons, manages the camera module, and controls the LCD display. It also stores the captured images and can generate a timelapse video from them.
@@ -44,4 +52,6 @@ In this project, I used three libraries to manage various components effectively
 - **GPIO Zero**: Used to control buttons.
 
 
-## Conclusions
+## Results
+
+## Bibliography/Resources
