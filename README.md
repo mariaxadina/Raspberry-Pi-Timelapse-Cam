@@ -4,8 +4,11 @@
 This project is a Timelapse Camera system built with a Raspberry Pi, designed to automatically capture images at user-defined intervals and organize them into date-based folders. The system features a user-friendly interface through an I2C LCD display and three physical buttons for navigation and selection.
 
 ### Detailed Description of Hardware Functionality
-**1. Microcontroller - ATmega328P**
+**1. Microcomputer Raspberry Pi 4B**: It runs the Python scripts, handles GPIO input from buttons, manages the camera module, and controls the LCD display. It also stores the captured images and can generate a timelapse video from them.
 
+**2. LCD 16x2 Display with I2C Module**: Displays menu options and system messages to the user. The I2C module simplifies wiring and communication, using only two pins (SDA and SCL) on the Raspberry Pi.
+
+**3. Microsoft LifeCam  HD-3000 Web Camera**: Used as the image capture device. It interfaces with the Raspberry Pi through USB and is controlled via the Picamera2 library to take snapshots for the timelapse.
 
 ## Description
 To get started, I installed the Raspberry Pi OS onto a 128GB microSD card using the Raspberry Pi Imager. After booting up the Raspberry Pi 4 Model B, I connected it to Wi-Fi,activated ssh, set up a static IP address and enabled VNC via raspi-config, allowing me to remotely access the desktop environment from my laptop.
