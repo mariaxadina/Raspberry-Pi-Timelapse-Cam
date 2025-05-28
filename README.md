@@ -53,5 +53,11 @@ In this project, I used three libraries to manage various components effectively
 
 
 ## Results
+As a result, the functionality of the project is implemented right
+
 
 ## Bibliography/Resources
+1. https://www.youngwonks.com/blog/Raspberry-Pi-4-Pinout
+2. https://www.raspberrypi.com/software/
+3. https://www.instructables.com/Simple-timelapse-camera-using-Raspberry-Pi-and-a-c/
+4. https://www.thingiverse.com/
