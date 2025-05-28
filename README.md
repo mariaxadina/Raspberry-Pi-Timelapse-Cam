@@ -37,9 +37,8 @@ Next, I connected a 16x2 I2C LCD display and three physical buttons to the GPIO 
 
 ### Circuit Schematic  
 <a>
-  <img src="https://github.com/mariaxadina/" width="800"/>
+  <img src="https://github.com/mariaxadina/Raspberry-Pi-Timelapse-Cam/blob/main/images/CircuitSchema.png" width="800"/>
 </a>
-
 ### Connected Components
 
 ### Development Environment 
