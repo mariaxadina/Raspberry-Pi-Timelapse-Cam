@@ -39,7 +39,10 @@ Next, I connected a 16x2 I2C LCD display and three physical buttons to the GPIO 
 <a>
   <img src="https://github.com/mariaxadina/Raspberry-Pi-Timelapse-Cam/blob/main/images/CircuitSchema.png" width="800"/>
 </a>
+
 ### Connected Components
+
+## Software Design
 
 ### Development Environment 
 The project is developed directly on a Raspberry Pi 4 Model B, running Raspberry Pi OS. Development and interaction are done using: Python 3 as programming language, VNC Viewer to remotely access the Raspberry Pi, Terminal for writing and running Python scripts.
@@ -50,10 +53,11 @@ In this project, I used three libraries to manage various components effectively
 - **RPLCD**: Designed to control LCD output.
 - **GPIO Zero**: Used to control buttons.
 
+### Image Capture Using Microsoft LifeCam HD-3000
+To capture high-quality images for the timelapse sequence, I used the Microsoft LifeCam HD-3000, a USB webcam known for its reliability and 720p resolution. The camera was interfaced with the Raspberry Pi using the Picamera2 library, which offers support for USB cameras and seamless integration into Python scripts.
 
 ## Results
-As a result, the functionality of the project is implemented right
-
+The final outcome of the project successfully met all the initial objectives. The Raspberry Pi 4B, paired with the Microsoft LifeCam HD-3000 and LCD interface, functioned reliably to capture timelapse sequences based on user-selected intervals.
 
 ## Bibliography/Resources
 1. https://www.youngwonks.com/blog/Raspberry-Pi-4-Pinout
