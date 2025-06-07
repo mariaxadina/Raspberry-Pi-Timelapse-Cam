@@ -3,8 +3,9 @@
 1. [Introduction](#introduction)
 2. [General Description](#General-Description)
 3. [Hardware Design](#Hardware-Design)
-4. [Results](#Results)
-5. [Bibliography/Resources](#Bibliography/Resources)
+4. [Software Design](#Software-Design)
+5. [Results](#Results)
+6. [Bibliography/Resources](#Bibliography/Resources)
    
 ## Introduction
 This project is a Timelapse Camera system built with a Raspberry Pi, designed to automatically capture images at user-defined intervals and organize them into date-based folders. The system features a user-friendly interface through an I2C LCD display and three physical buttons for navigation and selection.
@@ -35,12 +36,32 @@ Next, I connected a 16x2 I2C LCD display and three physical buttons to the GPIO 
 | Microsoft LifeCam Web Camera     | 1       | Captures images                       | https://download.microsoft.com/download/d/6/1/d61506a5-ac78-4e03-b35f-e4de7388251f/lchd3000_for%20business_sellsheet_us_lores.pdfm|
 | Jumper Wires (Cables)            | -       | Male-to-female/Female-to-female wires | https://www.mouser.com/c/ds/tools-supplies/prototyping-products/jumper-wires/?srsltid=AfmBOopanPWOk8Ukw1_juN3MPRRptIMeLviuPscUZNwjSLqPMhHw0F-X|
 
+### 3D Printed Cases with Prusa i3 MK3
+To protect and organize the hardware components of the Timelapse Camera system, I 3D printed custom cases using the Prusa i3 MK3 printer.
+#### Print Settings:
+- Printer: Original Prusa i3 MK3
+
+- Material: PETG (from Prusa), chosen for its durability and temperature resistance
+
+- Infill: 15%
+
+- Supports: Enabled everywhere
+
 ### Circuit Schematic  
 <a>
   <img src="https://github.com/mariaxadina/Raspberry-Pi-Timelapse-Cam/blob/main/images/CircuitSchema.png" width="800"/>
 </a>
 
 ### Connected Components
+<p>
+  <img src="https://github.com/mariaxadina/Raspberry-Pi-Timelapse-Cam/blob/main/images/1.jpeg" width="49%" />
+  <img src="https://github.com/mariaxadina/Raspberry-Pi-Timelapse-Cam/blob/main/images/2.jpeg" width="49%" />
+</p>
+<p>
+  <img src="https://github.com/mariaxadina/Raspberry-Pi-Timelapse-Cam/blob/main/images/3.jpeg" width="49%" />
+  <img src="https://github.com/mariaxadina/Raspberry-Pi-Timelapse-Cam/blob/main/images/4.jpeg" width="49%" />
+</p>
+
 
 ## Software Design
 
