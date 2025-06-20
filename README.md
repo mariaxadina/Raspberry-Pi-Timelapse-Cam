@@ -81,7 +81,7 @@ To capture high-quality images for the timelapse sequence, I used the Microsoft 
 The final outcome of the project successfully met all the initial objectives. The Raspberry Pi 4B, paired with the Microsoft LifeCam HD-3000 and LCD interface, functioned reliably to capture timelapse sequences based on user-selected intervals.
 
 ### Collaboration
-This project was developed in collaboration with [Bichel Stefan-Adrian](https://github.com/theirusername).
+This project was developed in collaboration with [Bichel Stefan-Adrian](https://github.com/StefanAdrian2003).
 
 ## Bibliography/Resources
 1. https://www.youngwonks.com/blog/Raspberry-Pi-4-Pinout
